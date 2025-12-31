@@ -46,4 +46,4 @@ jobs:
           docker build -t $ECR_REGISTRY/$ECR_REPO:latest .
           docker tag $ECR_REGISTRY/$ECR_REPO:latest $ECR_REGISTRY/$ECR_REPO:$IMAGE_TAG
           docker push $ECR_REGISTRY/$ECR_REPO:latest
-          docker push $ECR_REGISTRY/$ECR_REPO:$IMAGE_TAG
+          
